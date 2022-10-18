@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTJS IfElse</title>
+
+    <!-- BS CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- MAIN CSS  -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="w-50">
+            <div class="Bai1">
+                <h3>Bài 1: Sắp xếp 03 số nguyên theo thứ tự tăng dần</h3>
+                <div class="form-group">
+                  <input type="number" class="form-control" id="number1" placeholder="Nhập số nguyên thứ nhất">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="number2" placeholder="Nhập số nguyên thứ hai">
+                  </div>
+                  <div class="form-group">
+                    <input type="number" class="form-control" id="number3" placeholder="Nhập số nguyên thứ ba">
+                  </div>
+                  <button type="button" class="btn btn-primary" id="btnSapXep">Sắp xếp</button>
+                  <p id="arrange" class="alert alert-danger"></p>
+            </div>
+
+            <div class="bai2">
+                <h3>Bài 2: Chương trình chào hỏi </h3>
+                <div class="form-group">
+                  <label for="">Ai là người sử dụng máy</label>
+                  <select class="form-control" name="" id="thanhVien">
+                    <option>--Chọn người sử dụng máy--</option>
+                    <option value="B" >Bố</option>
+                    <option value="M" >Mẹ</option>
+                    <option value="A" >Anh trai</option>
+                    <option value="E" >Em gái</option>
+                  </select>
+                  <button type="button" class="btn btn-primary" id="btnChao">Gửi lời chào</button>
+                  <p class="alert alert-danger" id="chao"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <!-- BS js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <script src="./js/Bai1.js"></script>
+    <script src="./js/Bai2.js"></script>
+</body>
+</html>
